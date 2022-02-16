@@ -7,21 +7,21 @@ def dois_soma(n1=0, n2=0):
 	print(soma)
 	
 
-def dois_subtração():
+def dois_subtração(n1=0, n2=0):
 	n1 = int(input('1 Número:'))
 	n2 = int(input('2 Número: ')) 
 	sub = n1 - n2 
 	print(sub)
 
 
-def dois_dividir():
+def dois_dividir(n1=0, n2=0):
 	n1 = int(input('1 Número:'))
 	n2 = int(input('2 Número: ')) 
 	div = n1 / n2 
 	print(div)
 
 
-def dois_multiplicar():
+def dois_multiplicar(n1=0, n2=0):
 	n1 = int(input('1 Número:'))
 	n2 = int(input('2 Número: ')) 
 	mult = n1 * n2 
@@ -56,7 +56,7 @@ def main():
 			print('Opção Inválida')
 			main()
 			
-
+#Função Principal
 main()
 
 	
