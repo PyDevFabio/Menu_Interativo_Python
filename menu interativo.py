@@ -1,26 +1,26 @@
 
-
+#Função Soma
 def dois_soma(n1=0, n2=0):
 	n1 = int(input('1 Número:'))
 	n2 = int(input('2 Número: ')) 
 	soma = n1 + n2
 	print(soma)
 	
-
+#Função Subtração
 def dois_subtração(n1=0, n2=0):
 	n1 = int(input('1 Número:'))
 	n2 = int(input('2 Número: ')) 
 	sub = n1 - n2 
 	print(sub)
 
-
+#Função Divisão
 def dois_dividir(n1=0, n2=0):
 	n1 = int(input('1 Número:'))
 	n2 = int(input('2 Número: ')) 
 	div = n1 / n2 
 	print(div)
 
-
+#Função Multiplicar
 def dois_multiplicar(n1=0, n2=0):
 	n1 = int(input('1 Número:'))
 	n2 = int(input('2 Número: ')) 
